@@ -1,0 +1,461 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Nav css */
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: black;
+  /* background-image: linear-gradient(to right, rgb(202, 54, 79) , rgb(63, 42, 98)); */
+}
+
+.nav-ul li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-right{
+  text-align: right;
+}
+
+.nav-ul li .l-i{
+  color: red;
+}
+/* footer css */
+.fot-div{
+  position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    /* background-image: linear-gradient(to right, rgb(202, 54, 79) , rgb(63, 42, 98)); */
+}
+
+.fot-div h2{
+  color: white;
+  margin-top:0%;
+  margin-bottom: 0%;
+}
+
+.logo{
+  width: 45px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+/* Register css */
+.container{
+  height: 520px;
+  width: 800px;
+  /* background-color: rgba(7, 133, 7, 0.916); */
+  background-image: linear-gradient(to right, rgb(111, 3, 212) , rgb(0, 0, 0));
+  margin-top: 10px;
+  margin-left: 20%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#h1s{
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  padding-top: 5px;
+}
+.in{
+  width: 500px;
+  padding: 15px;
+  font-size: 15px;
+  margin: 9px;
+  border-radius: 5px;
+}
+
+.Checkbox label {
+  color: white;
+  padding-top: 3px;
+}
+
+.register .btn-r{
+ width: 335px;
+ margin-top: 10px;
+ padding: 15px;
+ background-color: rgb(243, 238, 246);
+ color: purple;
+ cursor: pointer;
+ border-radius: 10px;
+}
+
+/* Login css */
+
+.l-main{
+  height: 400px;
+  width: 350px;
+  background-image: linear-gradient(to right, rgb(111, 3, 212) , rgb(0, 0, 0));
+
+  margin-left: 35%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.l-main h2{
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+}
+
+.in-box{
+ margin-left: 14%;
+ width: 250px;
+ height: 40px;
+ margin-top: 15px;
+color: black;
+}
+.b-box{
+  margin-left: 30%;
+ width: 150px;
+ height: 40px;
+ margin-top: 15px;
+ border-radius: 7px;
+ background-color: rgb(252, 252, 252);
+ color: green;
+}
+
+.l-main div{
+  margin-top: 50px;
+}
+
+.l-main .in-box{
+  display: block;
+}
+.lp{
+  margin-left: -340px;
+  color: red;
+  margin-top: 0px;
+  
+}
+
+/* Add product css */
+.product-box{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-box .pro-in{
+  display: block;
+  margin-left: 41%;
+  margin-top: 15px;
+  width: 250px;
+ height: 40px;
+
+}
+.product-box .pro-btn{
+  display: block;
+  margin-left: 46%;
+  margin-top: 20px;
+  height: 40px;
+  background-color: rgb(111, 3, 212);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.i-v{
+  color: red;
+}
+
+.btn-p{
+  margin-left: 3px;
+}
+/* home css */
+
+/* .home-box{
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+} */
+
+.back-vid{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+  .back-vid{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio:16/9) {
+  .back-vid{
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* product list */
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
+.btn-r{
+  color: white;
+}
+
+.inner-con input{
+  margin-top: 10px;
+}
+
+
+
+
+/* product css */
+
+.pro-search{
+  margin-bottom: 20px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.pro-btn{
+  padding: 5px 10px;
+  color: white;
+  background-color:rgb(111, 3, 212) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* update prodcut css (note this is video css)
+.product{
+  margin-left: 30%;
+}
+
+.in-newbox{
+  padding: 7px;
+  display: block;
+  border: 1px solid black;
+  width: 300px;
+  margin:20px ;
+}
+
+.newapp-btn{
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(87, 9, 160);
+  border: 1px solid;
+  cursor: pointer;
+  color: white;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXTERNAL LOGIN PAGE */
+/* body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: none;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to right, rgb(202, 54, 79) , rgb(63, 42, 98));
+  width: 29vw;
+  
+  border-radius: 10px;
+}
+
+.center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid white;
+  margin: 30px 0;
+}
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: white;
+  transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: white;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:Valid ~ span::before{
+  width: 100%;
+}
+
+.pass{
+  margin: -5px 0 20px 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.pass:hover{
+  text-decoration: underline;
+}
+
+input[type="Submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+input[type="Submit"]:hover{
+  background: white;
+  color: #e9f4fb;
+  transition: .5s;
+}
+
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.signup_link a{
+  color:white;
+  text-decoration: none;
+}
+
+.signup_link a:hover{
+  text-decoration: underline;
+}
+
+.HomeAbout{
+  width: 100vw;
+  height: 25vh;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

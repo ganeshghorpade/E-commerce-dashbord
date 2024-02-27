@@ -1,0 +1,14 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js dependencies
+/node_modules
+
+# React build output
+/build
+/dist
+
+# Environment variables
+.env
+
+# Log files
+*.log
